@@ -28,7 +28,7 @@ This end-to-end project predicts customer churn, estimates LTV, identifies top s
 
 ## 🖼️ Model Explanation
 
-To enhance interpretability, consider adding:
+To enhance interpretability, adding:
 
 ```python
 import shap
@@ -37,7 +37,6 @@ shap_values = explainer(model.named_steps['preprocessor'].transform(X))
 shap.plots.beeswarm(shap_values)
 ```
 
-You can include this inside a Streamlit page later (e.g., `shap_dashboard.py`).
 
 ---
 
@@ -67,7 +66,7 @@ streamlit run app/app.py
 
 ## 📎 Live Demo
 
-👉 Add your deployed Streamlit Cloud link here once available
+👉 https://customer-churn-prediction-retention-dashboard-uplift-modeling.streamlit.app/
 
 ---
 
