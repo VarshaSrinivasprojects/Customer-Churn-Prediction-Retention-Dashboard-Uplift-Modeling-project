@@ -52,15 +52,7 @@ streamlit run app/app.py
 
 ---
 
-## 🚀 Deploy to Streamlit Cloud
-
-1. Go to https://streamlit.io/cloud
-2. Click **“New app”**
-3. Connect your GitHub repo
-4. Set:
-   - **Branch**: `main`
-   - **Main file path**: `app/app.py`
-5. Click **Deploy**
+## 🚀 Deployed to Streamlit Cloud
 
 ---
 
